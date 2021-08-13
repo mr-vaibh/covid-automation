@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "~=2.25.1"
+tabulate = "~=0.8.9"
+inputimeout = "~=1.0.4"
+svglib = "==1.0.1"
+reportlab = "~=3.5.67"
+pysimplegui = "~=4.41.2"
+beautifulsoup4 = "~=4.9.3"
+Pillow = "~=8.2.0"
+PyJWT = "~=2.1.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
